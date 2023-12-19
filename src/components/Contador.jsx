@@ -8,6 +8,8 @@ const Contador = () => {
             <h3>Contador</h3>
             <p className="fw-bold">{contador}</p>
             <button className="btn btn-primary" onClick={() => setContador(contador + 1)}>+1</button>
+            {" "}
+            <button className="btn btn-primary" onClick={() => setContador(contador - 1)}>-1</button>
         </article>
     );
 };
